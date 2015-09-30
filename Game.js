@@ -13,7 +13,7 @@ Game.prototype.initWorld = function()
 
 Game.prototype.resolveCollision = function()
 {		
-	this.goal.m_alive = false;
+	this.goal.m_alive = false; //what?test
 	game.levelcomplete();
 }
 
